@@ -1,0 +1,121 @@
+div {
+    width: auto;
+}
+
+body {
+    font-family: poppins;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+nav a {
+    color: white !important
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#round-but1 {
+    background-color: rgb(238, 157, 82);
+    color: white;
+    text-align: justify;
+    justify-content: space-around;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#round-but2 {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#round-but3 {
+    background-color: rgb(218, 135, 83);
+    color: white;
+    text-align: justify;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#round-but3:hover {
+    background-color: rgb(224, 99, 21);
+}
+
+.back {
+    background-image: url(lp.jpg);
+    color: white;
+}
+
+.intro-section {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.details-section {
+    display: flex;
+    background-color: chocolate;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.contact-section {
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+i {
+    color: rgb(228, 108, 34);
+    justify-content: center;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.description {
+    color: rgb(100, 97, 97);
+}
+
+.collage {
+    box-sizing: border-box;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    margin-right: 20px;
+}
+
+.mobile {
+    color: rgb(209, 199, 199) !important;
+    padding-top: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
